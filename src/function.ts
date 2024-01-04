@@ -70,22 +70,3 @@ export const wxSafeUrl = (url: string = location.href) =>
     .replace("https://h5p-gw.gogpay.cn", "https://h5.gogpay.cn/h5")
     .replace(/(p=\w+&?)/g, "")
     .replace(/(openId=\w+&?)/g, "");
-
-/**
- * 距离格式化
- * @param value
- * @param km
- * @returns
- */
-export const distanceFormat = (value: string | number, km: boolean = true) => {
-  return km ? (Number(value) / 1000).toFixed(2) + "km" : value + "m";
-};
-
-export const test = async () => {
-  const res = await new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(1);
-    }, 1000);
-  });
-  console.log(res);
-};

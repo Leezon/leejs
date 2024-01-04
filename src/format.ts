@@ -30,3 +30,13 @@ export const dateFormat = (
   }
   return dayjs(date).format(format);
 };
+
+/**
+ * 距离格式化
+ * @param value
+ * @param km boolean default true
+ * @returns
+ */
+export const distanceFormat = (value: string | number, km: boolean = true) => {
+  return km ? (Number(value) / 1000).toFixed(2) + "km" : value + "m";
+};

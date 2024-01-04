@@ -3,6 +3,8 @@ import typescript from "@rollup/plugin-typescript";
 import babel from "@rollup/plugin-babel";
 import json from "@rollup/plugin-json";
 import terser from "@rollup/plugin-terser";
+import { readFileSync } from "fs";
+const pkg = JSON.parse(readFileSync(new URL("./package.json", import.meta.url), "utf8"));
 
 const config = defineConfig({
   input: "src/index.ts",
@@ -18,7 +20,7 @@ const config = defineConfig({
     {
       file: "lib/index.min.js",
       format: "iife",
-      name: "lee",
+      name: pkg.name,
       plugins: [terser()],
       globals: {
         dayjs: "dayjs",
