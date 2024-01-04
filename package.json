@@ -37,7 +37,8 @@
     "lint": "prettier src --write",
     "test": "jest",
     "build": "yarn test && rimraf ./lib && rollup -c && ncp ./lib/types ./lib && rimraf ./lib/types",
-    "release": "yarn build && np --no-cleanup --yolo --any-branch",
+    "publish": "np --no-cleanup --yolo --any-branch",
+    "release": "yarn build && yarn publish",
     "prepare": "husky install"
   },
   "devDependencies": {
