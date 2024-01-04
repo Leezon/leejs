@@ -23,7 +23,7 @@ export const moneyFormat = (num?: number | string): string => {
  */
 export const dateFormat = (
   date: any,
-  format = "YYYY-MM-DD HH:mm:ss",
+  format: string = "YYYY-MM-DD HH:mm:ss",
 ): string => {
   if (!date) {
     return "";
