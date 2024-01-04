@@ -1,0 +1,62 @@
+{
+  "name": "leejs",
+  "version": "1.0.0",
+  "description": "工具库",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "type": "module",
+  "main": "./lib/index.umd.js",
+  "module": "./lib/index.esm.js",
+  "types": "./lib/types/index.d.ts",
+  "exports": {
+    "types": "./lib/types/index.d.ts",
+    "import": "./lib/index.esm.js",
+    "require": "./lib/index.umd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leezon/leejs.git"
+  },
+  "author": "Leezon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leezon/leejs/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/Leezon/leejs#readme",
+  "scripts": {
+    "lint": "prettier src --write",
+    "test": "jest",
+    "build": "rimraf ./lib && rollup -c",
+    "release": "yarn build && np --no-cleanup --yolo --any-branch",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "np": "^9.2.0",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
