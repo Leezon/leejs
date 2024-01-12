@@ -1,6 +1,6 @@
 {
   "name": "leejs",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "工具库",
   "keywords": [
     "util"
@@ -36,10 +36,11 @@
   "scripts": {
     "lint": "prettier src --write",
     "test": "jest",
-    "build": "yarn test && rimraf ./lib && rollup -c && ncp ./lib/types ./lib && rimraf ./lib/types",
+    "build": "yarn test && rimraf ./lib && rollup -c && yarn api && rimraf ./lib/types",
     "publish": "np --no-cleanup --yolo --any-branch",
     "release": "yarn build && yarn publish",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "api": "api-extractor run"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
@@ -64,6 +65,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@microsoft/api-extractor": "^7.39.1",
     "dayjs": "^1.11.10"
   }
 }

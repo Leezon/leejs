@@ -1,7 +1,7 @@
 /**
  * 补零操作
- * @param num
- * @param targetLength
+ * @param num-数字或字符串
+ * @param targetLength-补零后的长度
  * @returns
  */
 export function padZero(num: number | string, targetLength = 2): string {
@@ -14,7 +14,8 @@ export function padZero(num: number | string, targetLength = 2): string {
 
 /**
  * 时间戳转时分秒毫秒
- * @param timeStamp
+ * @param timeStamp - 时间戳
+ * @param ms-是否显示毫秒
  * @returns
  */
 export const timeStampTo = (timeStamp: number, ms: boolean = false) => {
@@ -35,7 +36,7 @@ export const timeStampTo = (timeStamp: number, ms: boolean = false) => {
 
 /**
  * base64字符串转blob
- * @param base64
+ * @param base64-图片base64字符串
  * @returns
  */
 export function base64ToBlob(base64: string): Blob | null | undefined {
@@ -61,7 +62,7 @@ export function base64ToBlob(base64: string): Blob | null | undefined {
 
 /**
  * 微信安全域名url
- * @param url  default: location.href
+ * @param url-default: location.href
  * @returns string
  */
 export const wxSafeUrl = (url: string = location.href) =>

@@ -1,6 +1,6 @@
 /**
  * 手机号脱敏
- * @param phone
+ * @param phone-手机号
  * @returns
  */
 export const desensitizationPhone = (phone: string) => {
@@ -12,7 +12,7 @@ export const desensitizationPhone = (phone: string) => {
 
 /**
  * 姓名脱敏
- * @param phone
+ * @param name-姓名
  * @returns
  */
 export const desensitizationName = (name: string) => {

@@ -2,7 +2,7 @@ import dayjs from "dayjs";
 
 /**
  * 千分位分割数字
- * @param num
+ * @param num-需要分割的数字
  * @returns
  */
 export const moneyFormat = (num?: number | string): string => {
@@ -17,8 +17,8 @@ export const moneyFormat = (num?: number | string): string => {
 
 /**
  * 日期格式化
- * @param date
- * @param format
+ * @param date-日期
+ * @param format-格式
  * @returns
  */
 export const dateFormat = (
@@ -33,8 +33,8 @@ export const dateFormat = (
 
 /**
  * 距离格式化
- * @param value
- * @param km boolean default true
+ * @param value-距离
+ * @param km-是否是km，默认true
  * @returns
  */
 export const distanceFormat = (value: string | number, km: boolean = true) => {

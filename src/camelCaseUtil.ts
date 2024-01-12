@@ -1,6 +1,6 @@
 /**
  * 驼峰转下划线
- * @param str
+ * @param str-string
  * @returns
  */
 export const camelCaseToUnderline = (str: string) => {
@@ -8,7 +8,7 @@ export const camelCaseToUnderline = (str: string) => {
 };
 /**
  * 下划线转驼峰
- * @param str
+ * @param str-string
  * @returns
  */
 export const underlineToCamelCase = (str: string) => {
@@ -19,7 +19,7 @@ export const underlineToCamelCase = (str: string) => {
 
 /**
  * 下划线对象转驼峰
- * @param obj
+ * @param obj-对象
  * @returns
  */
 export const underlineObjToCamelCase = (obj: any) => {
@@ -34,7 +34,7 @@ export const underlineObjToCamelCase = (obj: any) => {
 
 /**
  *  驼峰对象转下划线
- * @param obj
+ * @param obj-对象
  * @returns
  */
 export const camelCaseObjToUnderline = (obj: any) => {
@@ -49,7 +49,7 @@ export const camelCaseObjToUnderline = (obj: any) => {
 
 /**
  * 下划线数组对象转驼峰
- * @param arr
+ * @param arr-数组对象
  * @returns
  */
 export const underlineArrObjToCamelCase = (arr: any[]) => {
@@ -60,7 +60,7 @@ export const underlineArrObjToCamelCase = (arr: any[]) => {
 
 /**
  * 驼峰数组对象转下划线
- * @param arr
+ * @param arr-数组对象
  * @returns
  */
 export const camelCaseArrObjToUnderline = (arr: any[]) => {
