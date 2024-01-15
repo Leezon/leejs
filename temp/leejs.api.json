@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.39.1",
+    "schemaVersion": 1011,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      },
+      "reportUnsupportedHtmlElements": false
+    }
+  },
+  "kind": "Package",
+  "canonicalReference": "leejs!",
+  "docComment": "",
+  "name": "leejs",
+  "preserveMemberOrder": false,
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "leejs!",
+      "name": "",
+      "preserveMemberOrder": false,
+      "members": [
+        {
+          "kind": "Function",
+          "canonicalReference": "leejs!base64ToBlob:function(1)",
+          "docComment": "/**\n * base64字符串转blob\n *\n * @param base64 - 图片base64字符串\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function base64ToBlob(base64: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Reference",
+              "text": "Blob",
+              "canonicalReference": "!Blob:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " | null | undefined"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "lib/types/function.d.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 5
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "base64",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "base64ToBlob"
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!camelCaseArrObjToUnderline:var",
+          "docComment": "/**\n * 驼峰数组对象转下划线\n *\n * @param arr - 数组对象\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "camelCaseArrObjToUnderline: "
+            },
+            {
+              "kind": "Content",
+              "text": "(arr: any[]) => {\n    [key: string]: any;\n}[]"
+            }
+          ],
+          "fileUrlPath": "lib/types/camelCaseUtil.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "camelCaseArrObjToUnderline",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!camelCaseObjToUnderline:var",
+          "docComment": "/**\n * 驼峰对象转下划线\n *\n * @param obj - 对象\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "camelCaseObjToUnderline: "
+            },
+            {
+              "kind": "Content",
+              "text": "(obj: any) => {\n    [key: string]: any;\n}"
+            }
+          ],
+          "fileUrlPath": "lib/types/camelCaseUtil.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "camelCaseObjToUnderline",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!camelCaseToUnderline:var",
+          "docComment": "/**\n * 驼峰转下划线\n *\n * @param str - string\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "camelCaseToUnderline: "
+            },
+            {
+              "kind": "Content",
+              "text": "(str: string) => string"
+            }
+          ],
+          "fileUrlPath": "lib/types/camelCaseUtil.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "camelCaseToUnderline",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!camelCaseUtil:var",
+          "docComment": "/**\n * 驼峰下划线互转工具\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "camelCaseUtil: "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    camelCaseToUnderline: (str: string) => string;\n    underlineToCamelCase: (str: string) => string;\n    underlineObjToCamelCase: (obj: any) => {\n        [key: string]: any;\n    };\n    camelCaseObjToUnderline: (obj: any) => {\n        [key: string]: any;\n    };\n    underlineArrObjToCamelCase: (arr: any[]) => {\n        [key: string]: any;\n    }[];\n    camelCaseArrObjToUnderline: (arr: any[]) => {\n        [key: string]: any;\n    }[];\n}"
+            }
+          ],
+          "fileUrlPath": "lib/types/camelCaseUtil.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "camelCaseUtil",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!dateFormat:var",
+          "docComment": "/**\n * 日期格式化\n *\n * @param date - 日期\n *\n * @param format - 格式\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "dateFormat: "
+            },
+            {
+              "kind": "Content",
+              "text": "(date: any, format?: string) => string"
+            }
+          ],
+          "fileUrlPath": "lib/types/format.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "dateFormat",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!desensitizationName:var",
+          "docComment": "/**\n * 姓名脱敏\n *\n * @param name - 姓名\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "desensitizationName: "
+            },
+            {
+              "kind": "Content",
+              "text": "(name: string) => string | undefined"
+            }
+          ],
+          "fileUrlPath": "lib/types/desensitization.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "desensitizationName",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!desensitizationPhone:var",
+          "docComment": "/**\n * 手机号脱敏\n *\n * @param phone - 手机号\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "desensitizationPhone: "
+            },
+            {
+              "kind": "Content",
+              "text": "(phone: string) => string | undefined"
+            }
+          ],
+          "fileUrlPath": "lib/types/desensitization.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "desensitizationPhone",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!distanceFormat:var",
+          "docComment": "/**\n * 距离格式化\n *\n * @param value - 距离\n *\n * @param km - 是否是km，默认true\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "distanceFormat: "
+            },
+            {
+              "kind": "Content",
+              "text": "(value: string | number, km?: boolean) => string"
+            }
+          ],
+          "fileUrlPath": "lib/types/format.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "distanceFormat",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!getType:var",
+          "docComment": "/**\n * 判断数据类型\n *\n * @param type - any\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "getType: "
+            },
+            {
+              "kind": "Content",
+              "text": "(type: any) => any"
+            }
+          ],
+          "fileUrlPath": "lib/types/getType.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "getType",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!moneyFormat:var",
+          "docComment": "/**\n * 千分位分割数字\n *\n * @param num - 需要分割的数字\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "moneyFormat: "
+            },
+            {
+              "kind": "Content",
+              "text": "(num?: number | string) => string"
+            }
+          ],
+          "fileUrlPath": "lib/types/format.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "moneyFormat",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "leejs!padZero:function(1)",
+          "docComment": "/**\n * 补零操作\n *\n * @param num - 数字或字符串\n *\n * @param targetLength - 补零后的长度\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function padZero(num: "
+            },
+            {
+              "kind": "Content",
+              "text": "number | string"
+            },
+            {
+              "kind": "Content",
+              "text": ", targetLength?: "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "lib/types/function.d.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "num",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "targetLength",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "padZero"
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!timeStampTo:var",
+          "docComment": "/**\n * 时间戳转时分秒毫秒\n *\n * @param timeStamp - 时间戳\n *\n * @param ms - 是否显示毫秒\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "timeStampTo: "
+            },
+            {
+              "kind": "Content",
+              "text": "(timeStamp: number, ms?: boolean) => string"
+            }
+          ],
+          "fileUrlPath": "lib/types/function.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "timeStampTo",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!underlineArrObjToCamelCase:var",
+          "docComment": "/**\n * 下划线数组对象转驼峰\n *\n * @param arr - 数组对象\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "underlineArrObjToCamelCase: "
+            },
+            {
+              "kind": "Content",
+              "text": "(arr: any[]) => {\n    [key: string]: any;\n}[]"
+            }
+          ],
+          "fileUrlPath": "lib/types/camelCaseUtil.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "underlineArrObjToCamelCase",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!underlineObjToCamelCase:var",
+          "docComment": "/**\n * 下划线对象转驼峰\n *\n * @param obj - 对象\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "underlineObjToCamelCase: "
+            },
+            {
+              "kind": "Content",
+              "text": "(obj: any) => {\n    [key: string]: any;\n}"
+            }
+          ],
+          "fileUrlPath": "lib/types/camelCaseUtil.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "underlineObjToCamelCase",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!underlineToCamelCase:var",
+          "docComment": "/**\n * 下划线转驼峰\n *\n * @param str - string\n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "underlineToCamelCase: "
+            },
+            {
+              "kind": "Content",
+              "text": "(str: string) => string"
+            }
+          ],
+          "fileUrlPath": "lib/types/camelCaseUtil.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "underlineToCamelCase",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "leejs!wxSafeUrl:var",
+          "docComment": "/**\n * 微信安全域名url\n *\n * @param url - default: location.href\n *\n * @returns string\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "wxSafeUrl: "
+            },
+            {
+              "kind": "Content",
+              "text": "(url?: string) => string"
+            }
+          ],
+          "fileUrlPath": "lib/types/function.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "wxSafeUrl",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        }
+      ]
+    }
+  ]
+}

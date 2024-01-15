@@ -1,6 +1,8 @@
 # leejs
 
-前端工具库
+前端开发工具库
+
+API文档：[https://github.com/Leezon/leejs/markdown/index.md](./markdown/index.md)
 
 ### 安装
 

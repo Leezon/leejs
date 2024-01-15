@@ -36,11 +36,12 @@
   "scripts": {
     "lint": "prettier src --write",
     "test": "jest",
-    "build": "yarn test && rimraf ./lib && rollup -c && yarn api && rimraf ./lib/types",
+    "build": "npm run test && rimraf ./lib && rollup -c && npm run api && rimraf ./lib/types",
     "publish": "np --no-cleanup --yolo --any-branch",
-    "release": "yarn build && yarn publish",
+    "release": "npm run build && npm run publish",
     "prepare": "husky install",
-    "api": "api-extractor run"
+    "api": "api-extractor run",
+    "doc": "api-documenter markdown -i ./temp"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
@@ -66,6 +67,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@microsoft/api-documenter": "^7.23.16",
     "dayjs": "^1.11.10"
   }
 }
