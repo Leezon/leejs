@@ -19,5 +19,8 @@
         "logLevel": "none"
       }
     }
+  },
+  "tsdocMetadata": {
+    "enabled": false
   }
 }
