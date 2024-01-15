@@ -45,6 +45,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
+    "@microsoft/api-documenter": "^7.23.16",
     "@microsoft/api-extractor": "^7.39.1",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -66,7 +67,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@microsoft/api-documenter": "^7.23.16",
     "dayjs": "^1.11.10"
   }
 }
