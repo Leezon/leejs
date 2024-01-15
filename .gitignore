@@ -12,6 +12,7 @@ lib
 dist-ssr
 *.local
 coverage
+temp
 
 # Editor directories and files
 .vscode/*

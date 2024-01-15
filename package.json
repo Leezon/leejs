@@ -36,12 +36,11 @@
   "scripts": {
     "lint": "prettier src --write",
     "test": "jest",
-    "build": "npm run test && rimraf ./lib && rollup -c && npm run api && rimraf ./lib/types",
+    "build": "npm run test && rimraf ./lib && rollup -c && npm run api",
     "publish": "np --no-cleanup --yolo --any-branch",
     "release": "npm run build && npm run publish",
     "prepare": "husky install",
-    "api": "api-extractor run",
-    "doc": "api-documenter markdown -i ./temp"
+    "api": "api-extractor run && rimraf ./lib/types && api-documenter markdown -i ./temp && rimraf ./temp"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
