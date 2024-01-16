@@ -2,12 +2,24 @@
 
 [Home](./index.md) &gt; [leejs](./leejs.md) &gt; [underlineToCamelCase](./leejs.underlinetocamelcase.md)
 
-## underlineToCamelCase variable
+## underlineToCamelCase() function
 
 下划线转驼峰
 
 **Signature:**
 
 ```typescript
-underlineToCamelCase: (str: string) => string
+export declare function underlineToCamelCase(str: string): string;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  str | string | string |
+
+**Returns:**
+
+string
+
+

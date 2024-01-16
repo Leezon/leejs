@@ -2,12 +2,25 @@
 
 [Home](./index.md) &gt; [leejs](./leejs.md) &gt; [dateFormat](./leejs.dateformat.md)
 
-## dateFormat variable
+## dateFormat() function
 
 日期格式化
 
 **Signature:**
 
 ```typescript
-dateFormat: (date: any, format?: string) => string
+export declare function dateFormat(date: any, format?: string): string;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  date | any | 日期 |
+|  format | string | _(Optional)_ 格式 |
+
+**Returns:**
+
+string
+
+

@@ -2,12 +2,25 @@
 
 [Home](./index.md) &gt; [leejs](./leejs.md) &gt; [distanceFormat](./leejs.distanceformat.md)
 
-## distanceFormat variable
+## distanceFormat() function
 
 距离格式化
 
 **Signature:**
 
 ```typescript
-distanceFormat: (value: string | number, km?: boolean) => string
+export declare function distanceFormat(value: string | number, km?: boolean): string;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  value | string \| number | 距离 |
+|  km | boolean | _(Optional)_ 是否是km，默认true |
+
+**Returns:**
+
+string
+
+

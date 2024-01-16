@@ -2,12 +2,24 @@
 
 [Home](./index.md) &gt; [leejs](./leejs.md) &gt; [desensitizationName](./leejs.desensitizationname.md)
 
-## desensitizationName variable
+## desensitizationName() function
 
 姓名脱敏
 
 **Signature:**
 
 ```typescript
-desensitizationName: (name: string) => string | undefined
+export declare function desensitizationName(name: string): string | undefined;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  name | string | 姓名 |
+
+**Returns:**
+
+string \| undefined
+
+

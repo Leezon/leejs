@@ -2,12 +2,24 @@
 
 [Home](./index.md) &gt; [leejs](./leejs.md) &gt; [moneyFormat](./leejs.moneyformat.md)
 
-## moneyFormat variable
+## moneyFormat() function
 
 千分位分割数字
 
 **Signature:**
 
 ```typescript
-moneyFormat: (num?: number | string) => string
+export declare function moneyFormat(num?: number | string): string;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  num | number \| string | _(Optional)_ 需要分割的数字 |
+
+**Returns:**
+
+string
+
+

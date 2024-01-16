@@ -2,12 +2,24 @@
 
 [Home](./index.md) &gt; [leejs](./leejs.md) &gt; [getType](./leejs.gettype.md)
 
-## getType variable
+## getType() function
 
 判断数据类型
 
 **Signature:**
 
 ```typescript
-getType: (type: any) => any
+export declare function getType(type: any): string;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  type | any | any |
+
+**Returns:**
+
+string
+
+

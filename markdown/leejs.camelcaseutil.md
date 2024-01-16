@@ -10,19 +10,7 @@
 
 ```typescript
 camelCaseUtil: {
-    camelCaseToUnderline: (str: string) => string;
-    underlineToCamelCase: (str: string) => string;
-    underlineObjToCamelCase: (obj: any) => {
-        [key: string]: any;
-    };
-    camelCaseObjToUnderline: (obj: any) => {
-        [key: string]: any;
-    };
-    underlineArrObjToCamelCase: (arr: any[]) => {
-        [key: string]: any;
-    }[];
-    camelCaseArrObjToUnderline: (arr: any[]) => {
-        [key: string]: any;
-    }[];
+    camelCaseToUnderline: typeof camelCaseToUnderline;
+    underlineToCamelCase: typeof underlineToCamelCase;
 }
 ```

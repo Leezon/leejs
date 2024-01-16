@@ -1,7 +1,7 @@
 /**
  * 补零操作
- * @param num-数字或字符串
- * @param targetLength-补零后的长度
+ * @param num 数字或字符串
+ * @param targetLength 补零后的长度
  * @returns
  */
 export function padZero(num: number | string, targetLength = 2): string {
@@ -14,11 +14,11 @@ export function padZero(num: number | string, targetLength = 2): string {
 
 /**
  * 时间戳转时分秒毫秒
- * @param timeStamp - 时间戳
- * @param ms-是否显示毫秒
+ * @param timeStamp 时间戳
+ * @param ms 是否显示毫秒
  * @returns
  */
-export const timeStampTo = (timeStamp: number, ms: boolean = false) => {
+export function timeStampTo(timeStamp: number, ms: boolean = false): string {
   const H = 60 * 60 * 1000;
   const M = 60 * 1000;
   const S = 1000;
@@ -32,7 +32,7 @@ export const timeStampTo = (timeStamp: number, ms: boolean = false) => {
   }
   // 时分秒
   return `${padZero(h)}:${padZero(m)}:${padZero(s)}`;
-};
+}
 
 /**
  * base64字符串转blob
@@ -59,15 +59,3 @@ export function base64ToBlob(base64: string): Blob | null | undefined {
   }
   return new Blob([u8arr], { type });
 }
-
-/**
- * 微信安全域名url
- * @param url-default: location.href
- * @returns string
- */
-export const wxSafeUrl = (url: string = location.href) =>
-  url
-    .replace("https://h5p-gw.duotest.cn", "https://h5.gogpay.cn/h5-test")
-    .replace("https://h5p-gw.gogpay.cn", "https://h5.gogpay.cn/h5")
-    .replace(/(p=\w+&?)/g, "")
-    .replace(/(openId=\w+&?)/g, "");

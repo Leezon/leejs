@@ -2,12 +2,24 @@
 
 [Home](./index.md) &gt; [leejs](./leejs.md) &gt; [desensitizationPhone](./leejs.desensitizationphone.md)
 
-## desensitizationPhone variable
+## desensitizationPhone() function
 
 手机号脱敏
 
 **Signature:**
 
 ```typescript
-desensitizationPhone: (phone: string) => string | undefined
+export declare function desensitizationPhone(phone: string): string | undefined;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  phone | string | 手机号 |
+
+**Returns:**
+
+string \| undefined
+
+
