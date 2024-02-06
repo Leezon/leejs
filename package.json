@@ -11,15 +11,10 @@
     "LICENSE",
     "README.md"
   ],
-  "type": "module",
-  "main": "./lib/index.umd.js",
-  "module": "./lib/index.esm.js",
   "types": "./lib/index.d.ts",
-  "exports": {
-    "types": "./lib/index.d.ts",
-    "import": "./lib/index.esm.js",
-    "require": "./lib/index.umd.js"
-  },
+  "main": "./lib/index.cjs.js",
+  "module": "./lib/index.esm.js",
+  "unpkg": "./lib/index.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leezon/leejs.git"

@@ -12,7 +12,7 @@ const config = defineConfig({
   input: "src/index.ts",
   output: [
     {
-      file: "lib/index.umd.js",
+      file: "lib/index.cjs.js",
       format: "cjs",
     },
     {
