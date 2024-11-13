@@ -4,6 +4,7 @@ import {
   desensitizationName,
   desensitizationPhone,
   distanceFormat,
+  getCalendar,
   getType,
   moneyFormat,
   padZero,
@@ -43,4 +44,8 @@ test("function", () => {
   expect(timeStampTo(1000)).toBe("00:00:01");
   expect(timeStampTo(60 * 60 * 1000)).toBe("01:00:00");
   expect(timeStampTo(60 * 60 * 1000 + 123, true)).toBe("01:00:00:123");
+});
+
+test("getCalendar", () => {
+  expect(getCalendar(2024, 11)).toHaveLength(42);
 });
