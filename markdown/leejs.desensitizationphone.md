@@ -14,10 +14,39 @@ export declare function desensitizationPhone(phone: string): string | undefined;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  phone | string | 手机号 |
+<table><thead><tr><th>
 
+Parameter
+
+
+</th><th>
+
+Type
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+phone
+
+
+</td><td>
+
+string
+
+
+</td><td>
+
+手机号
+
+
+</td></tr>
+</tbody></table>
 **Returns:**
 
 string \| undefined

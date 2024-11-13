@@ -14,10 +14,39 @@ export declare function desensitizationName(name: string): string | undefined;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  name | string | 姓名 |
+<table><thead><tr><th>
 
+Parameter
+
+
+</th><th>
+
+Type
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+name
+
+
+</td><td>
+
+string
+
+
+</td><td>
+
+姓名
+
+
+</td></tr>
+</tbody></table>
 **Returns:**
 
 string \| undefined
