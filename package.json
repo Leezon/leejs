@@ -34,8 +34,8 @@
     "test": "jest",
     "build": "rimraf ./lib && rollup -c",
     "api": "api-extractor run --local && rimraf ./lib/types && api-documenter markdown -i ./temp && rimraf ./temp",
-    "publish": "np --no-cleanup --yolo --any-branch",
-    "release": "npm run test && npm run build && npm run api && npm run publish",
+    "publish1": "np --no-cleanup --yolo --any-branch",
+    "release": "npm run test && npm run build && npm run api && npm run publish1",
     "prepare": "husky install"
   },
   "devDependencies": {
