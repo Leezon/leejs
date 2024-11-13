@@ -14,39 +14,10 @@ export declare function base64ToBlob(base64: string): Blob | null | undefined;
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  base64 | string | 图片base64字符串 |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-base64
-
-
-</td><td>
-
-string
-
-
-</td><td>
-
-图片base64字符串
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 Blob \| null \| undefined

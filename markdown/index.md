@@ -6,24 +6,7 @@
 
 ## Packages
 
-<table><thead><tr><th>
+|  Package | Description |
+|  --- | --- |
+|  [leejs](./leejs.md) |  |
 
-Package
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-[leejs](./leejs.md)
-
-
-</td><td>
-
-
-</td></tr>
-</tbody></table>

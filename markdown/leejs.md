@@ -6,173 +6,30 @@
 
 ## Functions
 
-<table><thead><tr><th>
-
-Function
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-[base64ToBlob(base64)](./leejs.base64toblob.md)
-
-
-</td><td>
-
-base64字符串转blob
-
-
-</td></tr>
-<tr><td>
-
-[camelCaseToUnderline(str)](./leejs.camelcasetounderline.md)
-
-
-</td><td>
-
-驼峰转下划线
-
-
-</td></tr>
-<tr><td>
-
-[dateFormat(date, format)](./leejs.dateformat.md)
-
-
-</td><td>
-
-日期格式化
-
-
-</td></tr>
-<tr><td>
-
-[desensitizationName(name)](./leejs.desensitizationname.md)
-
-
-</td><td>
-
-姓名脱敏
-
-
-</td></tr>
-<tr><td>
-
-[desensitizationPhone(phone)](./leejs.desensitizationphone.md)
-
-
-</td><td>
-
-手机号脱敏
-
-
-</td></tr>
-<tr><td>
-
-[distanceFormat(value, km)](./leejs.distanceformat.md)
-
-
-</td><td>
-
-距离格式化
-
-
-</td></tr>
-<tr><td>
-
-[getCalendar(yaer, month)](./leejs.getcalendar.md)
-
-
-</td><td>
-
-通过年份月份获取日历
-
-
-</td></tr>
-<tr><td>
-
-[getType(type)](./leejs.gettype.md)
-
-
-</td><td>
-
-判断数据类型
-
-
-</td></tr>
-<tr><td>
-
-[moneyFormat(num)](./leejs.moneyformat.md)
-
-
-</td><td>
-
-千分位分割数字
-
-
-</td></tr>
-<tr><td>
-
-[padZero(num, targetLength)](./leejs.padzero.md)
-
-
-</td><td>
-
-补零操作
-
-
-</td></tr>
-<tr><td>
-
-[timeStampTo(timeStamp, ms)](./leejs.timestampto.md)
-
-
-</td><td>
-
-时间戳转时分秒毫秒
-
-
-</td></tr>
-<tr><td>
-
-[underlineToCamelCase(str)](./leejs.underlinetocamelcase.md)
-
-
-</td><td>
-
-下划线转驼峰
-
-
-</td></tr>
-</tbody></table>
+|  Function | Description |
+|  --- | --- |
+|  [base64ToBlob(base64)](./leejs.base64toblob.md) | base64字符串转blob |
+|  [camelCaseToUnderline(str)](./leejs.camelcasetounderline.md) | 驼峰转下划线 |
+|  [dateFormat(date, format)](./leejs.dateformat.md) | 日期格式化 |
+|  [desensitizationName(name)](./leejs.desensitizationname.md) | 姓名脱敏 |
+|  [desensitizationPhone(phone)](./leejs.desensitizationphone.md) | 手机号脱敏 |
+|  [distanceFormat(value, km)](./leejs.distanceformat.md) | 距离格式化 |
+|  [getCalendar(yaer, month)](./leejs.getcalendar.md) | 通过年份月份获取日历 |
+|  [getType(type)](./leejs.gettype.md) | 判断数据类型 |
+|  [moneyFormat(num)](./leejs.moneyformat.md) | 千分位分割数字 |
+|  [padZero(num, targetLength)](./leejs.padzero.md) | 补零操作 |
+|  [timeStampTo(timeStamp, ms)](./leejs.timestampto.md) | 时间戳转时分秒毫秒 |
+|  [underlineToCamelCase(str)](./leejs.underlinetocamelcase.md) | 下划线转驼峰 |
+
+## Interfaces
+
+|  Interface | Description |
+|  --- | --- |
+|  [Calendar](./leejs.calendar.md) |  |
 
 ## Variables
 
-<table><thead><tr><th>
+|  Variable | Description |
+|  --- | --- |
+|  [camelCaseUtil](./leejs.camelcaseutil.md) | 驼峰下划线互转工具 |
 
-Variable
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-[camelCaseUtil](./leejs.camelcaseutil.md)
-
-
-</td><td>
-
-驼峰下划线互转工具
-
-
-</td></tr>
-</tbody></table>

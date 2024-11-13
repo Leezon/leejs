@@ -1,4 +1,4 @@
-interface Calendar {
+export interface Calendar {
   date: string;
   day: number;
   weekday: string;
@@ -10,7 +10,7 @@ interface Calendar {
  * 通过年份月份获取日历
  * @param {number} yaer 年
  * @param {number} month 月
- * @returns Calendar[]
+ * @returns
  */
 export function getCalendar(yaer: number, month: number): Calendar[] {
   const date = new Date(yaer, month - 1, 1);

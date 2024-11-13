@@ -14,55 +14,11 @@ export declare function padZero(num: number | string, targetLength?: number): st
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  num | number \| string | 数字或字符串 |
+|  targetLength | number | _(Optional)_ 补零后的长度 |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-num
-
-
-</td><td>
-
-number \| string
-
-
-</td><td>
-
-数字或字符串
-
-
-</td></tr>
-<tr><td>
-
-targetLength
-
-
-</td><td>
-
-number
-
-
-</td><td>
-
-_(Optional)_ 补零后的长度
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 string

@@ -14,55 +14,11 @@ export declare function timeStampTo(timeStamp: number, ms?: boolean): string;
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  timeStamp | number | 时间戳 |
+|  ms | boolean | _(Optional)_ 是否显示毫秒 |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-timeStamp
-
-
-</td><td>
-
-number
-
-
-</td><td>
-
-时间戳
-
-
-</td></tr>
-<tr><td>
-
-ms
-
-
-</td><td>
-
-boolean
-
-
-</td><td>
-
-_(Optional)_ 是否显示毫秒
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 string

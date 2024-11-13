@@ -14,55 +14,11 @@ export declare function distanceFormat(value: string | number, km?: boolean): st
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  value | string \| number | 距离 |
+|  km | boolean | _(Optional)_ 是否是km，默认true |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-value
-
-
-</td><td>
-
-string \| number
-
-
-</td><td>
-
-距离
-
-
-</td></tr>
-<tr><td>
-
-km
-
-
-</td><td>
-
-boolean
-
-
-</td><td>
-
-_(Optional)_ 是否是km，默认true
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 string

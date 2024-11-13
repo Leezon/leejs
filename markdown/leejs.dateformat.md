@@ -14,55 +14,11 @@ export declare function dateFormat(date: any, format?: string): string;
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  date | any | 日期 |
+|  format | string | _(Optional)_ 格式 |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-date
-
-
-</td><td>
-
-any
-
-
-</td><td>
-
-日期
-
-
-</td></tr>
-<tr><td>
-
-format
-
-
-</td><td>
-
-string
-
-
-</td><td>
-
-_(Optional)_ 格式
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 string

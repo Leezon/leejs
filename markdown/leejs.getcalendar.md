@@ -14,58 +14,13 @@ export declare function getCalendar(yaer: number, month: number): Calendar[];
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  yaer | number | 年 |
+|  month | number | 月 |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-yaer
-
-
-</td><td>
-
-number
-
-
-</td><td>
-
-年
-
-
-</td></tr>
-<tr><td>
-
-month
-
-
-</td><td>
-
-number
-
-
-</td><td>
-
-月
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
-Calendar\[\]
+[Calendar](./leejs.calendar.md)<!-- -->\[\]
 
-Calendar\[\]
 

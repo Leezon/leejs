@@ -14,39 +14,10 @@ export declare function getType(type: any): string;
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  type | any | any |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-type
-
-
-</td><td>
-
-any
-
-
-</td><td>
-
-any
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 string

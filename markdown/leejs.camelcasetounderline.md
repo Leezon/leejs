@@ -14,39 +14,10 @@ export declare function camelCaseToUnderline(str: string): string;
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  str | string | string |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-str
-
-
-</td><td>
-
-string
-
-
-</td><td>
-
-string
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 string

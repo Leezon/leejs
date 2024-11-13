@@ -14,39 +14,10 @@ export declare function moneyFormat(num?: number | string): string;
 
 ## Parameters
 
-<table><thead><tr><th>
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  num | number \| string | _(Optional)_ 需要分割的数字 |
 
-Parameter
-
-
-</th><th>
-
-Type
-
-
-</th><th>
-
-Description
-
-
-</th></tr></thead>
-<tbody><tr><td>
-
-num
-
-
-</td><td>
-
-number \| string
-
-
-</td><td>
-
-_(Optional)_ 需要分割的数字
-
-
-</td></tr>
-</tbody></table>
 **Returns:**
 
 string
