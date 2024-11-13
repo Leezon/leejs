@@ -1,0 +1,32 @@
+name: Publish to npm
+
+on:
+  push:
+    branches:
+      - master # 你可以根据需要指定其他分支
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18" # 你可以根据需要选择其他版本
+          registry-url: "https://registry.npmjs.org/"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build && npm run api # 如果你的项目需要构建，可以在这里添加构建命令
+
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          EMAIL: ${{ secrets.NPM_EMAIL }}
