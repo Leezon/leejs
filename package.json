@@ -35,9 +35,9 @@
     "test": "jest",
     "build": "rimraf ./lib && rollup -c",
     "api": "api-extractor run --local && rimraf ./lib/types && api-documenter markdown -i ./temp && rimraf ./temp",
-    "publish1": "np --no-cleanup --yolo --any-branch",
-    "release": "npm run test && npm run build && npm run api && npm run publish1",
-    "prepare": "husky install"
+    "release": "npm run test && npm run build && npm run api && npm run tag",
+    "install": " husky install",
+    "tag": "npm version patch && git add package.json && git commit -m \"release: release version v$(node -p \"require('./package.json').version\")\" && git tag \"v$(node -p \"require('./package.json').version\")\" && git push origin --follow-tags"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
@@ -54,8 +54,6 @@
     "husky": "^8.0.3",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "ncp": "^2.0.0",
-    "np": "^9.2.0",
     "prettier": "^3.1.1",
     "rimraf": "^5.0.5",
     "rollup": "^4.9.2",
