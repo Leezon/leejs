@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm run build && npm run api # 如果你的项目需要构建，可以在这里添加构建命令
+        run: npm run release # 如果你的项目需要构建，可以在这里添加构建命令
 
       - name: Publish to npm
         run: npm publish

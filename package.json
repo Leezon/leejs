@@ -35,8 +35,8 @@
     "test": "jest",
     "build": "rimraf ./lib && rollup -c",
     "api": "api-extractor run --local && rimraf ./lib/types && api-documenter markdown -i ./temp && rimraf ./temp",
-    "release": "npm run test && npm run build && npm run api && npm run tag",
-    "install": " husky install"
+    "release": "npm run test && npm run build && npm run api",
+    "install": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
