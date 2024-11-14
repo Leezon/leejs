@@ -1,6 +1,6 @@
 {
   "name": "leejs",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "工具库",
   "keywords": [
     "leejs",
@@ -36,8 +36,7 @@
     "build": "rimraf ./lib && rollup -c",
     "api": "api-extractor run --local && rimraf ./lib/types && api-documenter markdown -i ./temp && rimraf ./temp",
     "release": "npm run test && npm run build && npm run api && npm run tag",
-    "install": " husky install",
-    "tag": "npm version patch && git add package.json && git commit -m \"release: release version v$(node -p \"require('./package.json').version\")\" && git tag \"v$(node -p \"require('./package.json').version\")\" && git push origin --follow-tags"
+    "install": " husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
